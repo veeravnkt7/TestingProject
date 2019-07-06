@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.sample.webtest.SeleniumTest" duration-ms="29879" started-at="2019-07-06T09:44:37Z" finished-at="2019-07-06T09:45:07Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="29879" started-at="2019-07-06T09:44:37Z" finished-at="2019-07-06T09:45:07Z">
+      <class name="com.sample.webtest.SeleniumTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="beforeMethod" is-config="true" duration-ms="4952" started-at="2019-07-06T09:44:37Z" finished-at="2019-07-06T09:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_AmazonLogin()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="test_AmazonLogin" duration-ms="10430" started-at="2019-07-06T09:44:42Z" finished-at="2019-07-06T09:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AmazonLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="afterMethod" is-config="true" duration-ms="921" started-at="2019-07-06T09:44:53Z" finished-at="2019-07-06T09:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="beforeMethod" is-config="true" duration-ms="4361" started-at="2019-07-06T09:44:53Z" finished-at="2019-07-06T09:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_OpenCartLogin()[pri:1, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="test_OpenCartLogin" duration-ms="8360" started-at="2019-07-06T09:44:58Z" finished-at="2019-07-06T09:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_OpenCartLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="afterMethod" is-config="true" duration-ms="830" started-at="2019-07-06T09:45:06Z" finished-at="2019-07-06T09:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.sample.webtest.SeleniumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.sample.webtest.SeleniumTest -->
+</testng-results>
