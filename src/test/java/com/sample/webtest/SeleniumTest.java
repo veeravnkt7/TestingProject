@@ -34,6 +34,14 @@ public class SeleniumTest {
 		driver.findElement(By.xpath("//*[@id='input-email']")).sendKeys("Venkat");
 		Thread.sleep(3000);
 	}
+	
+	@Test(priority = 2)
+	public void test_FlipkartLogin() throws InterruptedException {
+		driver.get("https://www.flipkart.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//input[@class='_2zrpKA _1dBPDZ']")).sendKeys("Venkat");
+		Thread.sleep(3000);
+	}
 
 	@BeforeMethod
 	public void beforeMethod() {

@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="com.sample.webtest.SeleniumTest" duration-ms="29879" started-at="2019-07-06T09:44:37Z" finished-at="2019-07-06T09:45:07Z">
+  <suite name="com.sample.webtest.SeleniumTest" duration-ms="44740" started-at="2019-07-06T11:21:54Z" finished-at="2019-07-06T11:22:39Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="29879" started-at="2019-07-06T09:44:37Z" finished-at="2019-07-06T09:45:07Z">
+    <test name="Command line test" duration-ms="44740" started-at="2019-07-06T11:21:54Z" finished-at="2019-07-06T11:22:39Z">
       <class name="com.sample.webtest.SeleniumTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="beforeMethod" is-config="true" duration-ms="4952" started-at="2019-07-06T09:44:37Z" finished-at="2019-07-06T09:44:42Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="beforeMethod" is-config="true" duration-ms="5890" started-at="2019-07-06T11:21:54Z" finished-at="2019-07-06T11:22:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_AmazonLogin()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="test_AmazonLogin" duration-ms="10430" started-at="2019-07-06T09:44:42Z" finished-at="2019-07-06T09:44:53Z">
+        <test-method status="PASS" signature="test_AmazonLogin()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="test_AmazonLogin" duration-ms="12099" started-at="2019-07-06T11:22:00Z" finished-at="2019-07-06T11:22:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_AmazonLogin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="afterMethod" is-config="true" duration-ms="921" started-at="2019-07-06T09:44:53Z" finished-at="2019-07-06T09:44:53Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="afterMethod" is-config="true" duration-ms="988" started-at="2019-07-06T11:22:12Z" finished-at="2019-07-06T11:22:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="beforeMethod" is-config="true" duration-ms="4361" started-at="2019-07-06T09:44:53Z" finished-at="2019-07-06T09:44:58Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="beforeMethod" is-config="true" duration-ms="4649" started-at="2019-07-06T11:22:13Z" finished-at="2019-07-06T11:22:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_OpenCartLogin()[pri:1, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="test_OpenCartLogin" duration-ms="8360" started-at="2019-07-06T09:44:58Z" finished-at="2019-07-06T09:45:06Z">
+        <test-method status="PASS" signature="test_OpenCartLogin()[pri:1, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="test_OpenCartLogin" duration-ms="8099" started-at="2019-07-06T11:22:18Z" finished-at="2019-07-06T11:22:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_OpenCartLogin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="afterMethod" is-config="true" duration-ms="830" started-at="2019-07-06T09:45:06Z" finished-at="2019-07-06T09:45:07Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="afterMethod" is-config="true" duration-ms="918" started-at="2019-07-06T11:22:26Z" finished-at="2019-07-06T11:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="beforeMethod" is-config="true" duration-ms="4743" started-at="2019-07-06T11:22:27Z" finished-at="2019-07-06T11:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_FlipkartLogin()[pri:2, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="test_FlipkartLogin" duration-ms="6319" started-at="2019-07-06T11:22:32Z" finished-at="2019-07-06T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_FlipkartLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sample.webtest.SeleniumTest@2f7c7260]" name="afterMethod" is-config="true" duration-ms="978" started-at="2019-07-06T11:22:38Z" finished-at="2019-07-06T11:22:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
